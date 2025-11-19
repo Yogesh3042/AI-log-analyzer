@@ -1,0 +1,10 @@
+2025-02-10 10:15:23 INFO  User login successful for userID=4321
+2025-02-10 10:15:25 WARN  API latency high on /payment/process (482ms)
+2025-02-10 10:15:28 ERROR Database connection timeout on cluster-db-1
+2025-02-10 10:15:29 INFO  Retrying DB connection (attempt 1/3)
+2025-02-10 10:15:30 INFO  DB connection re-established successfully
+2025-02-10 10:15:41 ERROR Failed to fetch user profile: userID=4321 reason=redis timeout
+2025-02-10 10:15:45 INFO  Cache refresh triggered for key user:4321
+2025-02-10 10:15:50 WARN  Disk usage above 85% on /dev/sda1
+2025-02-10 10:15:53 INFO  Background worker executed task: cleanup_temp_files
+2025-02-10 10:15:55 ERROR Payment processing failed: orderID=98765 code=502 Bad Gateway
