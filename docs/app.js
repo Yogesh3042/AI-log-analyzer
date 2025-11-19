@@ -1,4 +1,4 @@
-const API_URL = "https://ubiquitous-fortnight-7wvqxjqxx763xw5v-8080.app.github.dev/analyze";
+const API_URL = "https://ai-log-analyzer-wcpb.onrender.com/analyze";
 
 async function analyzeLogs() {
     const logs = document.getElementById("logInput").value.trim();
